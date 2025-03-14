@@ -3,7 +3,8 @@
 A bruteforce way to make F1TV Spoiler free, only shows the sessions to watch
 
 [Install Tampermonkey](https://www.tampermonkey.net/)
-[Install The Script](https://github.com/Lovasz-Akos/F1TV-Spoiler-Free-Mode/raw/master/f1tv-spoilers.user.js)
+
+[Install The Script](https://github.com/Lovasz-Akos/F1TV-Spoiler-Free-Mode/raw/refs/heads/main/f1tv-spoilers.user.js)
 
 No superhero, no news, no highlights, just pure session picker
 
