@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name             Spoiler Free Mode for F1TV
-// @version          1.2
+// @version          1.3
 // @downloadURL      https://github.com/Lovasz-Akos/F1TV-Spoiler-Free-Mode/raw/refs/heads/main/f1tv-spoilers.user.js
 // @updateURL        https://github.com/Lovasz-Akos/F1TV-Spoiler-Free-Mode/raw/refs/heads/main/f1tv-spoilers.user.js
 // @description      Remove all banners and thumbnail containers, only show sessions
