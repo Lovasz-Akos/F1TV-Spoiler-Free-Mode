@@ -16,7 +16,7 @@ window.onload = async function () {
     await new Promise((r) => setTimeout(r, 1));
   }
 
-  if(document.getElementsByClassName("position-relative iws-outer-container collapsed collapsable") != null){
+  if(document.getElementsByClassName("position-relative iws-outer-container collapsed collapsable")[0] != null){
     this.document.getElementsByClassName("btn btn-link text-nowrap")[0].click();
   }
 
