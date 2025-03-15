@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name             Spoiler Free Mode for F1TV
-// @version          1.1
+// @version          1.2
 // @downloadURL      https://github.com/Lovasz-Akos/F1TV-Spoiler-Free-Mode/raw/refs/heads/main/f1tv-spoilers.user.js
 // @updateURL        https://github.com/Lovasz-Akos/F1TV-Spoiler-Free-Mode/raw/refs/heads/main/f1tv-spoilers.user.js
 // @description      Remove all banners and thumbnail containers, only show sessions
@@ -14,6 +14,10 @@
 window.onload = async function () {
   while (document.getElementsByClassName("super-hero container")[0] == null) {
     await new Promise((r) => setTimeout(r, 1));
+  }
+
+  if(document.getElementsByClassName("position-relative iws-outer-container collapsed collapsable") != null){
+    this.document.getElementsByClassName("btn btn-link text-nowrap")[0].click();
   }
 
   const bigBanner = document.getElementsByClassName("super-hero container");
